@@ -1,1 +1,18 @@
-null
+{
+  "Web/guide.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": []
+  },
+  "Web/index.html": {
+    "resources": [
+      "fonts/mui-icons-extra.ttf",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "js/mui.js",
+      "css/icons-extra.css"
+    ]
+  }
+}

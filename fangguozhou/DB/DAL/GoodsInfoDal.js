@@ -88,9 +88,9 @@ var TypeInfoDal = {
 		//增
 		typeInfoDal.add = function(var model)
 		{
-			var add_goods_sql = 'INSERT INTO typeinfo(id,name,remarks) valuse(?,?,?)'
+			var add_goods_sql = 'INSERT INTO typeinfo(name,remarks) valuse(?,?)'
 			     ;
-			var paras = [model.id,model.name,model.remarks];
+			var paras = [model.name,model.remarks];
 			dbhelper.ExecuteSqlSql(add_goods_sql,paras);
 		};
 		//删
